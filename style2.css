@@ -1,0 +1,94 @@
+/*second css*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-size: 17px;
+	padding-top: 10px;
+}
+nav{
+	margin: 70px;
+}
+nav a{
+	font-size: 20px;
+}
+.container{
+	margin: 30px auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.content{
+	text-align: center;
+	background-color: grey;
+	color: white;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+.paragraph{
+	position: right;
+}
+h1{
+	font-size: 90px;
+}
+.box2{
+	margin: 50px auto;
+}
+iframe{
+	margin: 10px;
+}
+#ig{
+	margin: 50px;
+	text-align: center;
+}
+img{
+	width: 500px;
+}
+ @media screen and (max-width: 673px) {
+	img{
+		width: 350px;
+	}
+	iframe{
+		width: 300px;
+	}
+	.content h1{
+		font-size: 60px;
+	}
+ }
+ @media screen and (max-width: 413px) {
+	img{
+		width: 250px;
+	}
+	iframe{
+		width: 200px;
+	}
+	.content h1{
+		font-size: 60px;
+	}
+ }
+ @media screen and (max-width: 290px) {
+	img{
+		width: 160px;
+	}
+	iframe{
+		width: 150px;
+	}
+	footer h1{
+		font-size: 80px;
+	}
+ }
+.row{
+	margin: 90px auto;
+}
+footer{
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding: 50px;	
+}
+footer #footer{
+	font-size: 12px;
+}
+

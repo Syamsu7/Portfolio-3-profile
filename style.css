@@ -1,0 +1,126 @@
+/*new css*/
+*{
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-size: 17px;
+	padding-top: 10px;
+}
+nav{
+	margin-top: 20px;
+	text-align: center;
+}
+h1 span{
+	display: inline-block;
+	transition: .13s;
+	cursor: pointer;
+}
+h1 span:hover{
+	transform: scale(2) translateY(-25px);
+}
+.header{
+	margin: 100px;
+}
+.contact{
+	color: black;
+	text-align: center;
+	margin-top: 70px;
+}
+img{
+	width: 400px;
+	margin-top: 30px;
+}
+.container{
+	display: flex;
+	height: auto;
+	padding: 20px;
+	margin: 20px auto;
+}
+.box1{
+	flex-grow: 3;
+}
+.box1 h1{
+	margin-top: 170px;
+}
+.box2{
+	flex-grow: 1;
+}
+@media screen and (max-width: 1000px){
+	img{
+		text-align: center;
+		margin-top: 50%;
+	}
+	.box1{
+		margin-bottom: 60%;
+		margin-top: 20%;
+	}
+	.container h1{
+		font-size: 50px;
+	}
+ }
+@media screen and (max-width: 813px) {
+	.container{
+		flex-direction: column-reverse;
+	}
+	.box2{
+		text-align: center;
+	}
+	.box1{
+		text-align: center;
+	}
+ }
+ @media screen and (max-width: 513px) {
+	img{
+		width: 300px;
+	}
+	.container h1{
+		font-size: 60px;
+	}
+ }
+ @media screen and (max-width: 330px) {
+	img{
+		width: 200px;
+	}
+	nav a {
+		padding: 20px;
+	}
+	.container h1{
+		font-size: 40px;
+	}
+ }
+.card{
+	color: blue;
+	margin: 100px;
+	float: center;
+}
+a{
+    color: grey;
+	padding: 30px;
+}
+.container2{
+	color: black;
+	text-align: center;
+	margin: 70%;
+}
+.container3{
+	padding: 50px;
+	margin-bottom: 150px;
+}
+.container4{
+	margin: 100px;
+}
+#card{
+	padding: 30px;
+	position: relative;
+}
+footer{
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding: 90px;
+	
+}
+footer #footer{
+	font-size: 12px;
+}
