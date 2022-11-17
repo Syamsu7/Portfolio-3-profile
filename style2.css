@@ -27,6 +27,20 @@ nav a{
 	margin-top: 90px;
 	margin-bottom: 90px;
 }
+.content .box{
+	margin-top: 170px;
+}
+.box .contact ul li{
+	color: black;
+	text-align: center;
+	margin-top: 70px;
+	list-style: none;
+	display: inline-block;
+	padding: 25px;
+}
+.box .contact ul li a{
+	color: red;
+}
 .paragraph{
 	position: right;
 }
@@ -55,6 +69,14 @@ img{
 	}
 	.content h1{
 		font-size: 60px;
+	}
+	.box .contact ul{
+		display: flex;
+		flex-direction: column;
+	}
+	.box .contact ul li {
+		flex-grow: 1;
+		padding: 0px;
 	}
  }
  @media screen and (max-width: 413px) {
